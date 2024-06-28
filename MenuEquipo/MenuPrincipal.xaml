@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEquipo.MenuPrincipal"
+             Title="MenuPrincipal">
+    <ScrollView>
+    
+
+        <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center"
+        BackgroundColor="Black">
+
+           
+        <Image Source="fondo.png" 
+               HeightRequest="200"
+               HorizontalOptions="Center"/>
+        <Label 
+            Text="Bienvenidos al menu principal!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            TextColor="SkyBlue"
+            />
+
+        <Button Text="Cambio" Clicked="Button_Clicked" BackgroundColor="Purple" TextColor="White" />
+        <Button Text="Superficie" Clicked="Button_Clicked_1" BackgroundColor="Purple"  TextColor="White"/>
+        <Button Text="Dinosaurio" Clicked="Button_Clicked_2" BackgroundColor="Purple" TextColor="White"/>
+        <Button Text="Gasolinera" Clicked="Button_Clicked_3" BackgroundColor="Purple" TextColor="White"/>
+        <Button Text="Acerca de nosotros" Clicked="Button_Clicked_4" BackgroundColor="Purple" TextColor="White"/>
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
